@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Configuração do cabeçalho*/
+/*Título*/
+#spanTitulo{
+    color: #ffffff;
+}
+
+
+div{
+    border: 1px solid red;
+}
+
+
+
+
+/*Configuração do rodapé da página*/
+#rodape{
+    background-color: #808080
+}

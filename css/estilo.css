@@ -1,23 +1,71 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Configuração do cabeçalho*/
-/*Título*/
-#spanTitulo{
-    color: #ffffff;
+body{
+    background-color: #f2f2f2;
+}
+
+a:hover{
+    background-color: #d1e0e0;
+}
+
+/*Span data das postagens*/
+.spanData{
+    font-size: 0.6rem;
+    padding-top: -1rem;
+    padding-bottom: 1rem;
 }
 
 
-div{
-    border: 1px solid red;
+
+.faixaCinza{
+    background-color: #d9d9d9;
+}
+
+.img-postagem{
+    max-width: 100%;
 }
 
 
 
 
-/*Configuração do rodapé da página*/
-#rodape{
-    background-color: #808080
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
 }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+   
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+   footer{
+       display: flex;
+       justify-content: center;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   
+   .postagem{
+       width: 40rem;
+       margin-left: 7rem;
+       margin-right: 10rem;
+   }
+  
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+   
+}
+    
